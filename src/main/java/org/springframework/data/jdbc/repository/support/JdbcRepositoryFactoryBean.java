@@ -110,7 +110,6 @@ public class JdbcRepositoryFactoryBean<T extends Repository<S, ID>, S, ID extend
 		this.rowMapperMap = rowMapperMap;
 	}
 
-	@Autowired
 	public void setJdbcOperations(NamedParameterJdbcOperations operations) {
 		this.operations = operations;
 	}
